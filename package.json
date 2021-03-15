@@ -1,0 +1,22 @@
+{
+  "name": "7lekcija",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/parcel src/index.html",
+    "build": "node_modules/.bin/parcel build"
+  },
+  "author": "Reinis Lūkins",
+  "license": "none",
+  "dependencies": {
+    "box2dnode": "^2.0.0",
+    "live-server": "^1.2.1",
+    "parcel": "^1.12.4",
+    "three": "^0.114.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
